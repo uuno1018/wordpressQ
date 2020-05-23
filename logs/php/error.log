@@ -1,0 +1,277 @@
+[18-May-2020 13:07:56 UTC] WordPress データベースエラー: Table 'local.wp_cocoon_speech_balloons' doesn't exist for query SELECT COUNT(id) FROM wp_cocoon_speech_balloons made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/cocoon-master/functions.php'), require_once('/themes/cocoon-master/lib/_defins.php'), require_once('/themes/cocoon-master/lib/_imports.php'), require_once('/themes/cocoon-master/lib/tinymce/speech-balloons.php'), is_speech_balloons_record_empty, is_db_table_record_empty, get_db_table_record_count
+[18-May-2020 13:07:56 UTC] WordPress データベースエラー: Table 'local.wp_cocoon_function_texts' doesn't exist for query SELECT COUNT(id) FROM wp_cocoon_function_texts made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/cocoon-master/functions.php'), require_once('/themes/cocoon-master/lib/_defins.php'), require_once('/themes/cocoon-master/lib/_imports.php'), require_once('/themes/cocoon-master/lib/tinymce/function-texts.php'), is_function_texts_record_empty, is_db_table_record_empty, get_db_table_record_count
+[18-May-2020 13:07:56 UTC] WordPress データベースエラー: Table 'local.wp_cocoon_affiliate_tags' doesn't exist for query SELECT COUNT(id) FROM wp_cocoon_affiliate_tags made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/cocoon-master/functions.php'), require_once('/themes/cocoon-master/lib/_defins.php'), require_once('/themes/cocoon-master/lib/_imports.php'), require_once('/themes/cocoon-master/lib/tinymce/affiliate-tags.php'), is_affiliate_tags_record_empty, is_db_table_record_empty, get_db_table_record_count
+[18-May-2020 13:07:56 UTC] WordPress データベースエラー: Table 'local.wp_cocoon_item_rankings' doesn't exist for query SELECT COUNT(id) FROM wp_cocoon_item_rankings made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/cocoon-master/functions.php'), require_once('/themes/cocoon-master/lib/_defins.php'), require_once('/themes/cocoon-master/lib/_imports.php'), require_once('/themes/cocoon-master/lib/tinymce/item-rankings.php'), is_item_rankings_record_empty, is_db_table_record_empty, get_db_table_record_count
+[19-May-2020 13:09:52 UTC] PHP Parse error:  syntax error, unexpected '"() );' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 12
+[19-May-2020 13:10:41 UTC] PHP Parse error:  syntax error, unexpected '"() );' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 12
+[19-May-2020 13:12:08 UTC] PHP Parse error:  syntax error, unexpected '"() );' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 12
+[19-May-2020 13:12:13 UTC] PHP Parse error:  syntax error, unexpected '"() );' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 12
+[19-May-2020 13:12:57 UTC] PHP Parse error:  syntax error, unexpected '"() );' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 13
+[19-May-2020 13:13:32 UTC] PHP Parse error:  syntax error, unexpected '"() );' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 13
+[19-May-2020 13:13:34 UTC] PHP Parse error:  syntax error, unexpected '"() );' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 13
+[19-May-2020 13:14:00 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 4
+[19-May-2020 13:25:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function /style.css() in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php:4
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php(286): twpp_enqueue_styles('')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#7 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.ph in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 4
+[19-May-2020 13:26:20 UTC] PHP Parse error:  syntax error, unexpected '/', expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 4
+[19-May-2020 13:26:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function /style.css() in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php:4
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php(286): twpp_enqueue_styles('')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#7 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.ph in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 4
+[19-May-2020 13:50:06 UTC] PHP Parse error:  syntax error, unexpected '/', expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 4
+[19-May-2020 13:54:15 UTC] PHP Warning:  Use of undefined constant get_stylesheet_uri - assumed 'get_stylesheet_uri' (this will throw an Error in a future version of PHP) in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 4
+[19-May-2020 13:54:15 UTC] PHP Stack trace:
+[19-May-2020 13:54:15 UTC] PHP   1. {main}() C:\Users\sator\Local Sites\lesson1\app\public\index.php:0
+[19-May-2020 13:54:15 UTC] PHP   2. require() C:\Users\sator\Local Sites\lesson1\app\public\index.php:17
+[19-May-2020 13:54:15 UTC] PHP   3. require_once() C:\Users\sator\Local Sites\lesson1\app\public\wp-blog-header.php:19
+[19-May-2020 13:54:15 UTC] PHP   4. include() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template-loader.php:78
+[19-May-2020 13:54:15 UTC] PHP   5. get_header() C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php:1
+[19-May-2020 13:54:15 UTC] PHP   6. locate_template() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php:41
+[19-May-2020 13:54:15 UTC] PHP   7. load_template() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template.php:671
+[19-May-2020 13:54:15 UTC] PHP   8. require_once() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template.php:722
+[19-May-2020 13:54:15 UTC] PHP   9. wp_head() C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\header.php:17
+[19-May-2020 13:54:15 UTC] PHP  10. do_action() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php:2745
+[19-May-2020 13:54:15 UTC] PHP  11. WP_Hook->do_action() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:465
+[19-May-2020 13:54:15 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php:310
+[19-May-2020 13:54:15 UTC] PHP  13. wp_enqueue_scripts() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php:286
+[19-May-2020 13:54:15 UTC] PHP  14. do_action() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\script-loader.php:2537
+[19-May-2020 13:54:15 UTC] PHP  15. WP_Hook->do_action() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:465
+[19-May-2020 13:54:15 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php:310
+[19-May-2020 13:54:15 UTC] PHP  17. twpp_enqueue_styles() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php:286
+[19-May-2020 13:54:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function /style.css() in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php:4
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php(286): twpp_enqueue_styles('')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#7 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.ph in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 4
+[20-May-2020 11:07:28 UTC] PHP Parse error:  syntax error, unexpected '/', expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 4
+[20-May-2020 11:19:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'twpp_enqueue_styles' not found or invalid function name in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php on line 286
+[20-May-2020 11:19:04 UTC] PHP Stack trace:
+[20-May-2020 11:19:04 UTC] PHP   1. {main}() C:\Users\sator\Local Sites\lesson1\app\public\index.php:0
+[20-May-2020 11:19:04 UTC] PHP   2. require() C:\Users\sator\Local Sites\lesson1\app\public\index.php:17
+[20-May-2020 11:19:04 UTC] PHP   3. require_once() C:\Users\sator\Local Sites\lesson1\app\public\wp-blog-header.php:19
+[20-May-2020 11:19:04 UTC] PHP   4. include() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template-loader.php:78
+[20-May-2020 11:19:04 UTC] PHP   5. get_header() C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php:1
+[20-May-2020 11:19:04 UTC] PHP   6. locate_template() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php:41
+[20-May-2020 11:19:04 UTC] PHP   7. load_template() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template.php:671
+[20-May-2020 11:19:04 UTC] PHP   8. require_once() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template.php:722
+[20-May-2020 11:19:04 UTC] PHP   9. wp_head() C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\header.php:17
+[20-May-2020 11:19:04 UTC] PHP  10. do_action() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php:2745
+[20-May-2020 11:19:04 UTC] PHP  11. WP_Hook->do_action() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:465
+[20-May-2020 11:19:04 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php:310
+[20-May-2020 11:19:04 UTC] PHP  13. wp_enqueue_scripts() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php:286
+[20-May-2020 11:19:04 UTC] PHP  14. do_action() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\script-loader.php:2537
+[20-May-2020 11:19:04 UTC] PHP  15. WP_Hook->do_action() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:465
+[20-May-2020 11:19:04 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php:310
+[20-May-2020 11:20:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'twpp_enqueue_styles' not found or invalid function name in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php on line 286
+[20-May-2020 11:20:09 UTC] PHP Stack trace:
+[20-May-2020 11:20:09 UTC] PHP   1. {main}() C:\Users\sator\Local Sites\lesson1\app\public\index.php:0
+[20-May-2020 11:20:09 UTC] PHP   2. require() C:\Users\sator\Local Sites\lesson1\app\public\index.php:17
+[20-May-2020 11:20:09 UTC] PHP   3. require_once() C:\Users\sator\Local Sites\lesson1\app\public\wp-blog-header.php:19
+[20-May-2020 11:20:09 UTC] PHP   4. include() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template-loader.php:78
+[20-May-2020 11:20:09 UTC] PHP   5. get_header() C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php:1
+[20-May-2020 11:20:09 UTC] PHP   6. locate_template() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php:41
+[20-May-2020 11:20:09 UTC] PHP   7. load_template() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template.php:671
+[20-May-2020 11:20:09 UTC] PHP   8. require_once() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template.php:722
+[20-May-2020 11:20:09 UTC] PHP   9. wp_head() C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\header.php:17
+[20-May-2020 11:20:09 UTC] PHP  10. do_action() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php:2745
+[20-May-2020 11:20:09 UTC] PHP  11. WP_Hook->do_action() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:465
+[20-May-2020 11:20:09 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php:310
+[20-May-2020 11:20:09 UTC] PHP  13. wp_enqueue_scripts() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php:286
+[20-May-2020 11:20:09 UTC] PHP  14. do_action() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\script-loader.php:2537
+[20-May-2020 11:20:09 UTC] PHP  15. WP_Hook->do_action() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:465
+[20-May-2020 11:20:09 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\class-wp-hook.php:310
+[20-May-2020 11:54:52 UTC] PHP Parse error:  syntax error, unexpected '"() );' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 12
+[20-May-2020 11:55:12 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 4
+[20-May-2020 12:15:16 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\functions.php:4098
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\functions.php(4098): array_merge(Array, Array)
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(232): wp_parse_args(Array, Array)
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#7 C:\Users\sator\Local Sites\lesson1\app\public\wp-inclu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\functions.php on line 4098
+[20-May-2020 13:06:21 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 425
+[20-May-2020 13:12:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php:91
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template-loader.php(78): include()
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\sator\\...')
+#2 C:\Users\sator\Local Sites\lesson1\app\public\index.php(17): require('C:\\Users\\sator\\...')
+#3 {main}
+  thrown in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 91
+[20-May-2020 13:15:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php:91
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template-loader.php(78): include()
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\sator\\...')
+#2 C:\Users\sator\Local Sites\lesson1\app\public\index.php(17): require('C:\\Users\\sator\\...')
+#3 {main}
+  thrown in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 91
+[20-May-2020 13:27:06 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 96
+[20-May-2020 13:29:10 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 177
+[20-May-2020 13:29:28 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 178
+[20-May-2020 13:31:02 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 180
+[20-May-2020 13:35:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php:90
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template-loader.php(78): include()
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\sator\\...')
+#2 C:\Users\sator\Local Sites\lesson1\app\public\index.php(17): require('C:\\Users\\sator\\...')
+#3 {main}
+  thrown in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 90
+[20-May-2020 13:45:42 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 81
+[20-May-2020 13:45:56 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 443
+[20-May-2020 13:47:22 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 445
+[20-May-2020 13:48:34 UTC] PHP Fatal error:  Uncaught Error: Class 'P_Query' not found in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php:44
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template-loader.php(78): include()
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\sator\\...')
+#2 C:\Users\sator\Local Sites\lesson1\app\public\index.php(17): require('C:\\Users\\sator\\...')
+#3 {main}
+  thrown in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 44
+[21-May-2020 21:45:37 UTC] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 25
+[21-May-2020 21:45:44 UTC] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\functions.php on line 25
+[21-May-2020 22:01:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function echoget_the_date() in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php:200
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\template-loader.php(78): include()
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\sator\\...')
+#2 C:\Users\sator\Local Sites\lesson1\app\public\index.php(17): require('C:\\Users\\sator\\...')
+#3 {main}
+  thrown in C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\index.php on line 200
+[22-May-2020 13:04:56 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:428
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(210): do_action('pre_get_search_...')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#7 C:\Users\sator\Local Sites\lesson1\app\pu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php on line 428
+[22-May-2020 13:07:19 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:428
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(210): do_action('pre_get_search_...')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#7 C:\Users\sator\Local Sites\lesson1\app\pu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php on line 428
+[22-May-2020 13:08:05 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:428
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(210): do_action('pre_get_search_...')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#7 C:\Users\sator\Local Sites\lesson1\app\pu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php on line 428
+[22-May-2020 13:08:20 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:428
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(210): do_action('pre_get_search_...')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#7 C:\Users\sator\Local Sites\lesson1\app\pu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php on line 428
+[22-May-2020 13:14:25 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:428
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(210): do_action('pre_get_search_...')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#7 C:\Users\sator\Local Sites\lesson1\app\pu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php on line 428
+[22-May-2020 13:14:35 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:428
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(210): do_action('pre_get_search_...')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#7 C:\Users\sator\Local Sites\lesson1\app\pu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php on line 428
+[22-May-2020 13:15:46 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:428
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(210): do_action('pre_get_search_...')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#7 C:\Users\sator\Local Sites\lesson1\app\pu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php on line 428
+[22-May-2020 13:17:00 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:428
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(210): do_action('pre_get_search_...')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#7 C:\Users\sator\Local Sites\lesson1\app\pu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php on line 428
+[22-May-2020 13:26:04 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:428
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(210): do_action('pre_get_search_...')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#7 C:\Users\sator\Local Sites\lesson1\app\pu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php on line 428
+[22-May-2020 13:29:53 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:428
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(210): do_action('pre_get_search_...')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#7 C:\Users\sator\Local Sites\lesson1\app\pu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php on line 428
+[22-May-2020 13:29:56 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:428
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(210): do_action('pre_get_search_...')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#7 C:\Users\sator\Local Sites\lesson1\app\pu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php on line 428
+[22-May-2020 13:30:07 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php:428
+Stack trace:
+#0 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(210): do_action('pre_get_search_...')
+#1 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#2 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#3 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#4 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#5 C:\Users\sator\Local Sites\lesson1\app\public\wp-content\themes\lesson\searchform.php(1): get_search_form()
+#6 C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\general-template.php(258): require('C:\\Users\\sator\\...')
+#7 C:\Users\sator\Local Sites\lesson1\app\pu in C:\Users\sator\Local Sites\lesson1\app\public\wp-includes\plugin.php on line 428
